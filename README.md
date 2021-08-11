@@ -22,7 +22,7 @@ We used three datasets of subtomograms of 32^3 voxels. Each dataset had differen
 ### Results:
 The following table shows the results obtained from our experiments on the Cryo-ET data. The 3D CNN architecture shows better results in all three noise environments.
 <p align="center">
-  <img src="results_table.PNG" width="120" height="80"  />
+  <img src="results_table.PNG"  />
 </p>
 
 ### Citation
