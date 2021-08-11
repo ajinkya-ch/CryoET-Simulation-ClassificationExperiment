@@ -1,5 +1,5 @@
 # CryoET-Simulation-Classification Experiment
-## Convolutional Neural Network based Classification Method:
+## 3D Convolutional Neural Network based Classification Method:
 
 This code repository has experimenation code and results published in the article ['Efficient Cryo-Electron Tomogram Simulation of Macromolecular Crowding with Application to SARS-CoV-2'. ](https://ieeexplore.ieee.org/abstract/document/9313185)
 
