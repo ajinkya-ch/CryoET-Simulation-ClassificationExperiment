@@ -6,14 +6,14 @@ This code repository has experimenation code and results published in the articl
 In order to validate that the simulation approach formulated in the paper can be used to assist cryo-ET analysis, we generated a dataset containing 15,000 samples, and used it to train and test two cryo-ET classification methods. This repository contains the code and results for the 'CNN based approach'.
 
 ### Dataset Used:
-We used three datasets of subtomograms of 32^3 voxels. Each dataset had different SNR levels. The SNRs used were 0.03, 0.05 and positive infinity respectively. In each set, we obtained 5000 subtomograms of 10 classes. The 10 types of macromolecules and an example of the corresponding simulated cryo-ET slice could be found in the following figure:
+We derived the orginal data from the Protein Data Bank. We then used three simulated datasets of subtomograms of 32^3 voxels. Each dataset had different SNR levels. The SNRs used were 0.03, 0.05 and positive infinity respectively. In each set, we obtained 5000 subtomograms of 10 classes. The 10 types of macromolecules and an example of the corresponding simulated cryo-ET slice could be found in the following figure:
 
 <p align="center">
   <img src="data.PNG"   />
 </p>
 
 
-### Model Architecture:
+### 3D-CNN Model Architecture:
 
 <p align="center">
   <img src="papermodelarch.PNG"  height='500' width='200' />
@@ -36,6 +36,17 @@ The following table shows the results obtained from our experiments on the Cryo-
   number={},
   pages={80-87},
   doi={10.1109/BIBM49941.2020.9313185}}
+  
+### Usage
+
+For ease of use, we conducted the experiments using Google Colab notebooks accelerated by the Tesla P100 GPU. There are three different notebooks, each used for training data of different SNR levels. 
+
+To run a notebook,
+1. Transform your data into a dataframe of x and y columns.
+1. Convert the dataframe to pickle (.pkl) format.
+2. Import the .pkl file into the colab notebook
+3. Change the parameters about the input data in the file according to your input.
+4. Run all the cells
 
 ### Published Work
 
