@@ -16,7 +16,7 @@ We used three datasets of subtomograms of 32^3 voxels. Each dataset had differen
 ### Model Architecture:
 
 <p align="center">
-  <img src="papermodelarch.PNG"   />
+  <img src="papermodelarch.PNG"  height='500' width='200' />
 </p>
 
 ### Results:
