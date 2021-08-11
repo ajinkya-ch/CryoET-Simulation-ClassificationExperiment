@@ -9,14 +9,14 @@ In order to validate that the simulation approach formulated in the paper can be
 We used three datasets of subtomograms of 32^3 voxels. Each dataset had different SNR levels. The SNRs used were 0.03, 0.05 and positive infinity respectively. In each set, we obtained 5000 subtomograms of 10 classes. The 10 types of macromolecules and an example of the corresponding simulated cryo-ET slice could be found in the following figure:
 
 <p align="center">
-  <img src="data.PNG" width="650" height="250"  />
+  <img src="data.PNG"   />
 </p>
 
 
 ### Model Architecture:
 
 <p align="center">
-  <img src="papermodelarch.PNG" width="200" height="500"  />
+  <img src="papermodelarch.PNG"   />
 </p>
 
 ### Results:
