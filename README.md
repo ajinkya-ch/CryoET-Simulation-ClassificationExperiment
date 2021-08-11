@@ -9,7 +9,7 @@ In order to validate that the simulation approach formulated in the paper can be
 We used three datasets of subtomograms of 32^3 voxels. Each dataset had different SNR levels. The SNRs used were 0.03, 0.05 and positive infinity respectively. In each set, we obtained 5000 subtomograms of 10 classes. The 10 types of macromolecules and an example of the corresponding simulated cryo-ET slice could be found in the following figure:
 
 <p align="center">
-  <img src="data.PNG" width="500" height="300"  />
+  <img src="data.PNG" width="650" height="250"  />
 </p>
 
 
@@ -22,7 +22,7 @@ We used three datasets of subtomograms of 32^3 voxels. Each dataset had differen
 ### Results:
 The following table shows the results obtained from our experiments on the Cryo-ET data. The 3D CNN architecture shows better results in all three noise environments.
 <p align="center">
-  <img src="resultstable.PNG" width="200" height="200"  />
+  <img src="results_table.PNG" width="200" height="200"  />
 </p>
 
 ### Citation
